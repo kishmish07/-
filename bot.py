@@ -17,10 +17,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Вставь свой токен Telegram бота
-BOT_TOKEN = "7706412555:AAGm2ABPO_XpItG7wSejOoQQyUyXu3H3Fik"
 
-# Вставь свои параметры DeepSeek API
-DEEPSEEK_API_KEY = "sk-17953de77efb45359df2daadda35a970"
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 
 # Файл для хранения данных пользователей
@@ -457,4 +454,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
